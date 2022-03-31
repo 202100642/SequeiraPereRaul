@@ -14,7 +14,7 @@ public class SceneTruck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(gameTruck.getVelocity() * Time.deltaTime, transform.position.y, transform.position.z);
+        transform.Translate(gameTruck.getVelocity() * Time.deltaTime, 0, 0);
     }
 
     public Truck getGameTruck()
